@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_ScaleTest
+  m_Shader: {fileID: -6465566751694194690, guid: eea5c8487470fc640a0e534b37d23beb, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _EdgePadding: 0.38
+    - _Edge_Padding: 7.35
+    - _Fire_Cutoff: 0.98
+    - _Fire_Noise_Scale: 19.08
+    - _Fire_Noise_Speed: 0
+    - _Fire_Noise_Strength: 1.23
+    - _Float: -4.53
+    - _Glow_Color_Strength: 5
+    - _Glow_Strength_Alpha: 0.15
+    - _InnerStrokeThickness: 0.726
+    - _LinePos: 0
+    - _LineWidth: 0
+    - _Magnitude: 1.87
+    - _Noise_Scale: 10.8
+    - _Noise_Strength: 0.3
+    - _Outer_Glow_Edge_Max: 0.89
+    - _Outer_Glow_Edge_Min: 0.15
+    - _Outer_Glow_Edge_Min_1: -1.34
+    - _Outer_Glow_Edge_Start: -0.32
+    - _Outer_Glow_Strength: 0.24
+    - _Padding2: 1.39
+    - _StrokeThickness: 0.13
+    m_Colors:
+    - _Background_Color: {r: 0.3267785, g: 1, b: 0.19339621, a: 0}
+    - _Center_Position: {r: 0, g: 0, b: 0, a: 0}
+    - _Fire_Color: {r: 0.045684487, g: 0.8588235, b: 0, a: 0}
+    - _Fire_Noise_Speed: {r: 0, g: -0.35, b: 0, a: 0}
+    - _Glow_Color: {r: 0.16170728, g: 1, b: 0, a: 0}
+    - _Inner_Stroke_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Noise_Speed: {r: 0.25, g: 0.1, b: 0, a: 0}
+    - _Stroke_Color: {r: 0.00126791, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &6457374537116796510
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10
